@@ -22,7 +22,7 @@ const Registration: React.FC = () => {
         }
 
         try {
-            const response = await fetch('http://localhost:5000/auth/registration', {
+            const response = await fetch('http://217.114.10.30:5000/auth/registration', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

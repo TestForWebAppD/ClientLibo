@@ -16,8 +16,8 @@ const Searched = () => {
 
             try {
                 const url = type
-                    ? `http://localhost:5000/recipes/allRecipesByName`
-                    : `http://localhost:5000/recipes/allRecipesByCompound`;
+                    ? `http://217.114.10.30:5000/recipes/allRecipesByName`
+                    : `http://217.114.10.30:5000/recipes/allRecipesByCompound`;
 
                 const body = type
                     ? { name: query }

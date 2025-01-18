@@ -49,7 +49,7 @@ export const Categories = () => {
                                        hover:border-EIO hover:bg-EIO duration-500"
                         >
                             <img
-                                src={`${process.env.PUBLIC_URL}/Categories/${item}.jpg`}
+                                src={`http://217.114.10.30:5000/Categories/${item}.jpg`}
                                 alt={`Category ${item}`}
                                 className="w-full h-full transition-transform duration-200 ease-out shadow-lg select-none rounded-t-xl"
                                 sizes="(max-width: 284px) 100vw, 284px"
