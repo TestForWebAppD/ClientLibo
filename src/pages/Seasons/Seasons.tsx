@@ -34,7 +34,7 @@ export const Seasons = () => {
                         className="cursor-pointer bg-likegray flex flex-col justify-evenly content-center text-center text-black hover:bg-EIO hover:text-white duration-500 border border-gray-300 rounded-lg"
                     >
                         <img
-                            src={`http://217.114.10.30:5000/Seasons/${data}.jpg`}
+                            src={`/Seasons/${data}.jpg`}
                             alt={`season ${data}`}
                             className="w-full h-full transition-transform duration-200 ease-out shadow-lg select-none rounded-t-lg"
                         />
