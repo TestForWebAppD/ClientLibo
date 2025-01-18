@@ -11,6 +11,7 @@ import Recipes from "../pages/Recipes";
 import Login from "../pages/auth/Login";
 import Registration from "../pages/auth/Registration";
 import Profile from "../pages/Profile";
+import { Navigate } from 'react-router-dom';
 
 const publicRout = [
     { path: "/login", component: <Login />, exact: true },
@@ -47,7 +48,7 @@ const privateRout = [
     {path: "/profile", component: <Profile/>, exact: true},
     {path: "/profile/:recipe", component: <RecipeCard/>, exact: true},
 
-    {path: "/", component: <Recipes/>, exact: true},
+    {path: "/", component: <Navigate to="/recipes" replace />, exact: true},
     {path: "*", component: <Error />, exact: true},
 ];
 
