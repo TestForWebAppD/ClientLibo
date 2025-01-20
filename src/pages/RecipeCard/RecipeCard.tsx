@@ -41,7 +41,7 @@ export const RecipeCard = () => {
             setLoading(true);
             setError(null);
             try {
-                const response = await fetch('http://217.114.10.30:5000/recipes/Recipe', {
+                const response = await fetch('http://217.114.8.68:5000/recipes/Recipe', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
