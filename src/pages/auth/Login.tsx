@@ -30,7 +30,7 @@ const Login: React.FC = () => {
         setErrorMessage(null);
 
         try {
-            const response = await fetch('http://217.114.10.30:5000/auth/login', {
+            const response = await fetch('http://217.114.8.68:5000/auth/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
